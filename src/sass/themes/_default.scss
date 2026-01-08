@@ -1,0 +1,13 @@
+@use "../abstracts/variables" as *;
+
+html * {
+    font-family: $montserrat-font;
+}
+ 
+body {
+    overflow-x: hidden;
+    background-color: $bg-principal;
+    color: $text;
+    width: $bp-desktop;
+    margin: 0 auto;
+} 
